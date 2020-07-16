@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Landing Page Concept</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <nav class="nav">
+        <a class="nav__link"
+           href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJKjnQpGsPxrpshbKrlBjjmhHQfbdGRxqVZqVcWHGtjmWWJZNbQKKFjNxZqdJPRChsSv">contact</a>
+        <a class="nav__link" href="https://www.waveoxygen.com/">My work</a>
+        <a class="nav__link" href="file:///C:/Users/anvit/Downloads/Aneesh/COMP/MOB.html#">Food</a>
+        <a class="nav__link" href="file:///C:/Users/anvit/Downloads/Aneesh/COMP/music.html">Music</a>
+    </nav>
+</head>
+<body>
+<audio autoplay>
+    <source src="y.mp3" type="audio/mpeg">
+</audio>
+
+<div class="temp"></div>
+<div class="first-block"></div>
+<div class="second-block"></div>
+<div class="loader">
+    <ul>
+        <li>L</li>
+        <li>O</li>
+        <li>A</li>
+        <li>D</li>
+        <li>I</li>
+        <li>N</li>
+        <li>G</li>
+    </ul>
+</div>
+<div class="third-block"></div>
+<div class="menu">
+    <ion-icon name="menu"></ion-icon>
+</div>
+<div class="logo">
+    <span>Explore</span>
+</div>
+<div class="content">
+    <div class="heading">
+        <span>Taj Mahal</span>
+    </div>
+    <div class="desc">
+        <p>The Taj Mahal is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city
+            of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (reigned from 1628 to 1658) to house
+            the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. </p>
+    </div>
+    <div class="link">
+        <button><a class="nav__link" href="http://tourism.gov.in/">Book Now</a></button>
+
+    </div>
+</div>
+<div class="img">
+    <img alt="" src="5602814747_c491031626_b.jpg">
+</div>
+<div class="media">
+    <ul>
+        <li>
+            <ion-icon name="logo-facebook"></ion-icon>
+        </li>
+        <li>
+            <ion-icon name="logo-instagram"></ion-icon>
+        </li>
+        <li>
+            <ion-icon name="logo-twitter"></ion-icon>
+        </li>
+    </ul>
+</div>
+<div class="watch">
+    <ion-icon name="play"></ion-icon>
+</div>
+
+<script type="text/javascript">
+
+      TweenMax.from(".logo", 1.6, {
+            delay: 6.4,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".menu", 1.6, {
+            delay: 6.5,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".heading", 1.6, {
+            delay: 6.6,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".desc", 1.6, {
+            delay: 6.7,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.from("button", 1.6, {
+            delay: 6.8,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".watch", 1.6, {
+            delay: 6.9,
+            opacity: 0,
+            y: 30,
+            rotation: 90,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.staggerFrom(".media ul li", 2, {
+            delay: 7,
+            opacity: 0,
+            y: 40,
+            ease: Expo.easeInOut
+      }, 0.2);
+
+
+</script>
+
+</body>
+</html>
